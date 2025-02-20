@@ -1,0 +1,10 @@
+    down
+    box "Sony Access Controller" fill Bisque fit
+    arrow 75% "USB  cable"
+    box "HID remapper" "RP2040 USB host" fill Bisque fit
+    arrow 75% "USB  cable"
+MF: box "MayFlash Magic-S Pro" fill Bisque fit
+    arrow <- right 150% "Bluetooth" "" from MF.e
+    box "Sony DualShock 4" fill Bisque fit
+    arrow down 75% "USB  cable" from MF.s
+    box "Sony PlayStation 4" fill Bisque fit

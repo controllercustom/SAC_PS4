@@ -1,0 +1,2 @@
+#!/bin/sh
+pikchr --svg-only sac_hid-remapper_mayflash.pik | sed 's/^<svg/<svg width="512"/'>sac_hid-remapper_mayflash.svg
