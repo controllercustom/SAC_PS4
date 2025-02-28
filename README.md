@@ -1,25 +1,24 @@
 # Sony Access Controller for PlayStation 4
 
-The Sony Access Controller (SAC) for PlayStation 5 consoles works well on the
-PlayStation 5 console. The SAC comes with a variety of different joystick
-toppers and button shapes and four input jacks for external buttons and
-joysticks. Since Sony makes the PlayStation 4 console (PS4) and the SAC, they
-could add support for SAC to the PS4 System Software. There is no indication
-when this will happen.
+The Sony Access Controller (SAC) works well on the Sony PlayStation 5 console.
+The SAC comes with a variety of different joystick toppers and button shapes
+and four input jacks for external buttons and joysticks. Since Sony makes the
+PlayStation 4 console (PS4) and the SAC, they could add support for SAC to the
+PS4 System Software. There is no indication when this will happen.
 
 The MayFlash Magic-S adapter supports many other controllers including the Xbox
 Adaptive Controller and Sony DualSense Controller. But the adapter does not
 support the SAC yet. MayFlash Support stated they will add support for the Sony
 Access Controller to the Magic-S adapters.
 
-This project use hid-remapper and MayFlash adapter to make the Sony Access
+This project uses hid-remapper and a MayFlash adapter to make the Sony Access
 Controller work on the PlayStation 4 console.
 
 <kbd><img alt="Block diagram showing a SAC and a DS4 connected to a PlayStation 4 using a MayFlash adapter" src="./images/sac_hid-remapper_mayflash.svg"></kbd>
 
 The PS4 does not have an assist or co-pilot mode but a DualShock 4 controller
 can be paired with the MayFlash adapter. The MayFlash adapter combines SAC
-and DualShock 4 inputs so they control player 1.
+and DualShock 4 controller inputs so they control player 1.
 
 Make sure the MayFlash LED is dark blue for PlayStation 4.
 
@@ -66,7 +65,7 @@ Open [this web site](https://www.jfedor.org/hid-remapper-config/) in Chrome.
 * Select sac_ps4.json
 * Save to device
 
-After importing the JSON file the Mapping and Settings screens will look
+After importing the JSON file the Mapping and Settings screens should look
 like this.
 
 <kbd><img alt="SAC to PS4 Mapping" src="./images/SAC_to_PS4_Mapping.jpg"></kbd>
